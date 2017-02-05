@@ -2,11 +2,11 @@
 
 * [Introduction](#introduction)
 * [Beginner Course](#beginner-course)
-  * Schedule
-  * Resource
+  * Schedule (#beginner-schedule)
+  * Content  (#beginner-content)
 * [Advanced Course](#advanced-course)
-  * Schedule
-  * Resource
+  * Schedule (#advanced-schedule)
+  * Content (#advanced-content)
 
 
 ## Introduction <a name="introduction"></a>
@@ -71,13 +71,16 @@ Day 2  | Tuesday February 7th, 2017     |
 [Computation I]: http://www.scipy-lectures.org/intro/numpy/index.html
 [Visualization I]: http://www.labri.fr/perso/nrougier/teaching/matplotlib/matplotlib.html
 
-### Introduction
+
+### Content <a name="beginner-content"></a>
+
+#### Introduction
 
 This [gentle introduction to Python](introduction.md) explains how to install
 Python and introduces some very simple concepts related to numerical
 expressions and other data types.
 
-### Programming with Python
+#### Programming with Python
 
 [Scipy Lecture
 Notes]. This
@@ -91,7 +94,7 @@ style.
 
  * [Dive into Python](http://www.diveintopython3.net)
 
-### Computation I
+#### Computation I
 
 [Scipy Lecture Notes]. The primary goal of
 this [lesson](http://www.scipy-lectures.org/intro/numpy/index.html) is to
@@ -106,7 +109,7 @@ familiar with this module since it will be used everywhere in the next lessons.
   * [Numpy MedKit](http://mentat.za.net/numpy/numpy_advanced_slides/)
 
 
-### Scientific visualization I
+#### Scientific visualization I
 
 This [tutorial](https://github.com/rougier/matplotlib-tutorial) gives an
 overview of Matplotlib, the core tool for 2D & 2.5D plotting that produces
@@ -154,9 +157,9 @@ Day 4  | Tuesday February 10th, 2017    |
 [C/Python integration]: http://www.scipy-lectures.org/advanced/interfacing_with_c/interfacing_with_c.html
 [Visualization II]: http://glumpy.readthedocs.org/en/latest/tutorial/introduction.html)
 
+### Content <a name="advanced-content"></a>
 
-
-### Scientific computation II
+#### Scientific computation II
 
 [Scipy Lecture Notes]. This
 [lesson](http://www.scipy-lectures.org/intro/scipy.html) introduces the scipy
@@ -171,7 +174,7 @@ processing, statistics, special functions, etc.
   * [Numerical Analysis: Python vs Matlab](http://hyperpolyglot.org/numerical-analysis)
 
 
-### Version control
+#### Version control
 
 [Software Carpentry]. This lesson introduces
 [version control using git](https://swcarpentry.github.io/git-novice/). Version
@@ -187,7 +190,7 @@ control system.
   * [Git cheat sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 
 
-### C/Python integration
+#### C/Python integration
 
 [Scipy Lecture Notes]. This
 [chapter](http://www.scipy-lectures.org/advanced/interfacing_with_c/interfacing_with_c.html)
@@ -198,7 +201,7 @@ technologies exist and what their respective merits and shortcomings are, so
 that you can select the appropriate one for your specific needs.
 
 
-### Scientific visualization II
+#### Scientific visualization II
 
 This [lesson](http://glumpy.readthedocs.org/en/latest/tutorial/introduction.html)
 introduces the (modern) OpenGL API through the use of [glumpy] which a python
