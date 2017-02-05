@@ -1,24 +1,30 @@
 # Scientific Python course
 
-Lecture notes from the course taught at the [University of Bordeaux](http://www.u-bordeaux.com) in the academic year 2017 for PhD students.  
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.  
+* [Introduction](#introduction)
+* [Beginner Course](#beginner-course)
+  * Schedule
+  * Resource
+* [Advanced Course](#advanced-course)
+  * Schedule
+  * Resource
 
-Each student needs to come with a notebook computer running either Linux, OSX or Windows.  
 
-![](XKCD.png)
-Adapted from https://xkcd.com/353/
+## Introduction <a name="introduction"></a>
+
+Lecture notes from the course taught at the [University of Bordeaux] in the
+academic year 2017 for PhD students.  Each student needs to come with a
+notebook computer running either Linux, OSX or Windows.  
+
+![](XKCD.png) Adapted from https://xkcd.com/353/
 
 |
 
 The scientific Python ecosystem is made of several modules that constitute
-together the scientific stack. There are hundreds of
-[Python scientific packages](https://pypi.python.org/pypi?:action=browse&c=385)
-and most of them are built on top of numpy, scipy, matplotib, pandas, cython
-and/or sympy. We won't cover everything in this short course, but you should
-get enough information to decide if your research can benefit from Python. And
-I bet it will likely do.
-
-Also, make sure to have a look at the [awesome python](https://github.com/vinta/awesome-python), a curated list of Python frameworks, libraries and software.
+together the scientific stack. There are hundreds of [Python scientific
+packages] and most of them are built on top of numpy, scipy, matplotib, pandas,
+cython and/or sympy. We won't cover everything in this short course, but you
+should get enough information to decide if your research can benefit from
+Python. And I bet it will likely do.
 
 |
 
@@ -26,29 +32,46 @@ This course is mostly based on the teaching material kindly provided by:
 
 * [Software Carpentry]
 * [Scipy Lecture Notes]
-
-
-
-|
-
-Beginner course
--------------------------------------------------------------------------------
-
-Day 1 | Monday, February 7, 2016   |          | Day 2 | Tuesday, Feburary 8, 2016 
------ | ---------------------------| -------- | ----- | ----------------------------------------
-09:00 | Installation & Welcome     | –––––––– |       | 
-09:15 |  Introduction (part 1)     |          | 09:00 | Computation I (part 1)
-10:30 | *Coffee break*             |          | 10:30 | *Coffee break & questions*
-10:45 |  Introduction (part 2)     |          | 10:45 | Computation I (part 2)
-12:00 | *Lunch break*              |          | 12:00 | *Lunch break*
-14:00 |  Programming (part 1)      |          | 14:00 | Visualization (part 1)
-15:30 | *Coffee break & questions* |          | 15:30 | *Coffee break & questions*
-15:45 |  Programming (part 2)      |          | 15:45 | Visualization (part 2)
-17:00 | *Wrap-up*                  |          | 17:00 | *Wrap-up*
+* [From Python to Numpy]
 
 |
 
-### Introduction to Python
+## Beginner course <a name="beginner-course"></a>
+
+### Schedule <a name="beginner-schedule"></a>
+
+Day 1  | Monday February 6th, 2017      | 
+------ | ------------------------------ |
+09:00  | Installation & Welcome         |
+09:15  | [Introduction]                 |
+10:30  | *Coffee break*                 |
+10:45  | [Introduction]                 |
+12:00  | *Lunch break*                  |
+14:00  | [Programmation]                |
+15:30  | *Coffee break & questions*     |
+15:45  | [Programmation]                |
+17:00  | *Wrap-up*                      |
+
+|
+
+Day 2  | Tuesday February 7th, 2017     |
+------ | ------------------------------ |
+09:15  | [Computation I]                |
+10:30  | *Coffee break*                 |
+10:45  | [Computation I]                |
+12:00  | *Lunch break*                  |
+14:00  | [Visualization I]              |
+15:30  | *Coffee break & questions*     |
+15:45  | [Visualization I]              |
+17:00  | *Wrap-up*                      |
+
+
+[Introduction]: introduction.md
+[Programmation]: http://www.scipy-lectures.org/intro/language/python_language.html
+[Computation I]: http://www.scipy-lectures.org/intro/numpy/index.html
+[Visualization I]: http://www.labri.fr/perso/nrougier/teaching/matplotlib/matplotlib.html
+
+### Introduction
 
 This [gentle introduction to Python](introduction.md) explains how to install
 Python and introduces some very simple concepts related to numerical
@@ -56,27 +79,32 @@ expressions and other data types.
 
 ### Programming with Python
 
-[Scipy Lecture Notes]. This
+[Scipy Lecture
+Notes]. This
 [lecture](http://www.scipy-lectures.org/intro/language/python_language.html)
 does not attempt to be comprehensive and cover every single feature, or even
 every commonly used feature. Instead, it introduces many of Python's most
 noteworthy features, and will give you a good idea of the language’s flavor and
 style.
 
+**See also**:
 
-### Scientific computation I
+ * [Dive into Python](http://www.diveintopython3.net)
 
-[Scipy Lecture Notes]. The primary goal of this
-[lesson](http://www.scipy-lectures.org/intro/numpy/index.html) is to introduce
-the numpy (numerical python) module which is de facto the standard module for
-numerical computing with Python. It is essential for you to become familiar
-with this module since it will be used everywhere in the next lessons.
+### Computation I
+
+[Scipy Lecture Notes]. The primary goal of
+this [lesson](http://www.scipy-lectures.org/intro/numpy/index.html) is to
+introduce the numpy (numerical python) module which is de facto the standard
+module for numerical computing with Python. It is essential for you to become
+familiar with this module since it will be used everywhere in the next lessons.
 
 **See also**:
 
   * [Numpy tutorial](https://github.com/rougier/numpy-tutorial)
   * [100 Numpy exercises](https://github.com/rougier/numpy-100)
   * [Numpy MedKit](http://mentat.za.net/numpy/numpy_advanced_slides/)
+
 
 ### Scientific visualization I
 
@@ -89,25 +117,44 @@ platforms.
 
   * [10 Simple rules for better figures](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833)
   * [Pyplot tutorial](http://matplotlib.org/users/pyplot_tutorial.html)
-  
-  
+
+
+
+## Advanced course <a name="advanced-course"></a>
+
+### Schedule <a name="advanced-schedule"></a>
+
+Day 3  | Monday February 9th, 2017      | 
+------ | ------------------------------ |
+09:00  | [Computation II]               |
+10:30  | *Coffee break*                 |
+10:45  | [Computation II]               |
+12:00  | *Lunch break*                  |
+14:00  | [Version control]              |
+15:30  | *Coffee break & questions*     |
+15:45  | [Version control]              |
+17:00  | *Wrap-up*                      |
+
 |
 
-Advanced course
--------------------------------------------------------------------------------
+Day 4  | Tuesday February 10th, 2017    |
+------ | ------------------------------ |
+09:15  | [C/Python integration]         |
+10:30  | *Coffee break*                 |
+10:45  | [C/Python integration]         |
+12:00  | *Lunch break*                  |
+14:00  | [Visualization II]             |
+15:30  | *Coffee break & questions*     |
+15:45  | [Visualization II]             |
+17:00  | *Wrap-up*                      |
 
-Day 1 | Thursday, February 9, 2017  |          | Day 2 | Friday, February 10, 2017
------ | --------------------------- | -------- | ----- | ----------------------------------------
-09:00 | Computation II (part 1)     | –––––––– | 09:00 | C/Python integration (part 1)
-10:30 | *Coffee break & questions*  |          | 10:30 | *Coffee break & questions*
-10:45 | Computation II (part 2)     |          | 10:45 | C/Python integration (part 2)
-12:00 | *Lunch break*               |          | 12:00 | *Lunch break*
-14:00 | Version control (part 1)    |          | 14:00 | Visualization II (part 1)
-15:30 | *Coffee break & questions*  |          | 15:30 | *Coffee break & questions*
-15:45 | Version control (part 2)    |          | 15:45 | Visualization II (part 2)
-17:00 | *Wrap-up*                   |          | 17:00 | *Wrap-up*
 
-|
+[Computation II]: http://www.scipy-lectures.org/intro/scipy.html
+[Version Control]: https://swcarpentry.github.io/git-novice
+[C/Python integration]: http://www.scipy-lectures.org/advanced/interfacing_with_c/interfacing_with_c.html
+[Visualization II]: http://glumpy.readthedocs.org/en/latest/tutorial/introduction.html)
+
+
 
 ### Scientific computation II
 
@@ -153,12 +200,11 @@ that you can select the appropriate one for your specific needs.
 
 ### Scientific visualization II
 
-This
-[lesson](http://glumpy.readthedocs.org/en/latest/tutorial/introduction.html)
-introduces the (modern) OpenGL API through the use of [glumpy](http://glumpy.github.io) 
-which a python library for scientific visualization that is both fast, scalable and beautiful.
-Glumpy offers an intuitive interface between numpy and modern OpenGL.
-
+This [lesson](http://glumpy.readthedocs.org/en/latest/tutorial/introduction.html)
+introduces the (modern) OpenGL API through the use of [glumpy] which a python
+library for scientific visualization that is both fast, scalable and
+beautiful. Glumpy offers an intuitive interface between numpy and modern
+OpenGL.
 
 |
 
@@ -184,4 +230,7 @@ Glumpy offers an intuitive interface between numpy and modern OpenGL.
 [Cython]:     http://cython.org
 [Software Carpentry]:  http://software-carpentry.org
 [Scipy Lecture Notes]: http://www.scipy-lectures.org
+[From Python to Numpy]: http://www.labri.fr/perso/nrougier/from-python-to-numpy/
+[University of Bordeaux]: http://www.u-bordeaux.com
+[Python scientific packages]: (https://pypi.python.org/pypi?:action=browse&c=385)
 <!---------------------------------------------------------------------------->
