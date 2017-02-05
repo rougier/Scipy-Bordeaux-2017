@@ -2,11 +2,11 @@
 
 * [Introduction](#introduction)
 * [Beginner Course](#beginner-course)
-  * Schedule (#beginner-schedule)
-  * Content  (#beginner-content)
+  * [Schedule](#beginner-schedule)
+  * [Content](#beginner-content)
 * [Advanced Course](#advanced-course)
-  * Schedule (#advanced-schedule)
-  * Content (#advanced-content)
+  * [Schedule](#advanced-schedule)
+  * [Content](#advanced-content)
 
 
 ## Introduction <a name="introduction"></a>
@@ -26,15 +26,12 @@ cython and/or sympy. We won't cover everything in this short course, but you
 should get enough information to decide if your research can benefit from
 Python. And I bet it will likely do.
 
-|
-
 This course is mostly based on the teaching material kindly provided by:
 
 * [Software Carpentry]
 * [Scipy Lecture Notes]
 * [From Python to Numpy]
 
-|
 
 ## Beginner course <a name="beginner-course"></a>
 
@@ -52,7 +49,6 @@ Day 1  | Monday February 6th, 2017      |
 15:45  | [Programmation]                |
 17:00  | *Wrap-up*                      |
 
-|
 
 Day 2  | Tuesday February 7th, 2017     |
 ------ | ------------------------------ |
@@ -138,7 +134,6 @@ Day 3  | Monday February 9th, 2017      |
 15:45  | [Version control]              |
 17:00  | *Wrap-up*                      |
 
-|
 
 Day 4  | Tuesday February 10th, 2017    |
 ------ | ------------------------------ |
