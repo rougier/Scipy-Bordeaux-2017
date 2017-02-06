@@ -25,7 +25,7 @@ The primary goal of this lesson is twofold:
 Installation
 -------------------------------------------------------------------------------
 
-As of today (2016), Python exists mainly in two flavors: Python 2.x and
+As of today (2017), Python exists mainly in two flavors: Python 2.x and
 Python 3.x.  On most system, a 2.x version is already installed and for some
 systems, the 3.x is also installed. However, because we don't want to mess with
 the system installation, we'll install our own private version usign either:
