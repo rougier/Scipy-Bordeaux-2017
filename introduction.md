@@ -1,7 +1,7 @@
 # A Gentle introduction to Python
 **Nicolas P. Rougier** - [Nicolas.Rougier@inria.fr](mailto:Nicolas.Rougier@inria.fr)  
 Lecture notes from the [EDMI] course taught at the [University of Bordeaux] for the
-academic year 2015/16.  
+academic year 2017.  
 This work is licensed under [Creative Commons Attribution-ShareAlike 4.0 International
 License] (http://creativecommons.org/licenses/by-sa/4.0/).
 
